@@ -3,7 +3,8 @@ enum Currency
 	PENNY(1),
 	NICKLE(5),
 	DIME(10),
-	QUARTER(25);
+	QUARTER(25),
+	DOLLAR(100);
 
 	private int value;
 
@@ -43,6 +44,8 @@ public class CurrencyTest
 			case QUARTER: 
 						System.out.println("Quarter" + Currency.QUARTER.getValue());
 						break;
+			case DOLLAR:
+						System.out.println("Dollar" + Currency.DOLLAR.getValue());
 			default:
                 System.out.println("default Case");
                 break;
