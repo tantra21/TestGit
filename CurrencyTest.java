@@ -54,7 +54,12 @@ public class CurrencyTest
 
 	public static void main(String[] args)
 	{
-		CurrencyTest ct = new  CurrencyTest(Currency.DIME);
-		ct.valueOfCurrency();
+		CurrencyTest ct1 = new  CurrencyTest(Currency.DIME);
+		ct1.valueOfCurrency();
+
+		CurrencyTest ct2 = new  CurrencyTest(Currency.QUARTER);
+		ct2.valueOfCurrency();
+		
+
 	}
 }
