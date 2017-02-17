@@ -59,6 +59,8 @@ public class CurrencyTest
 
 		CurrencyTest ct2 = new  CurrencyTest(Currency.QUARTER);
 		ct2.valueOfCurrency();
+
+		System.out.println(" Change that will be reverted");
 		
 
 	}
